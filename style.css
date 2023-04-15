@@ -1,0 +1,333 @@
+@font-face {
+    font-family: Nectarine;
+    src: url(NectarineDemoRegular-Ea6le.ttf);
+}
+
+@font-face {
+    font-family: DreamMorp;
+    src: url(dreamorp.ttf);
+}
+:root{
+    --clr-purp: #553566;
+    --clr-dblu: #5DA6BF;
+    --clr-oran: #FD883D;
+    --clr-brow: #AC663E;
+    --clr-pink: #FFC0CB;
+    --clr-yell: #FDED98;
+    --clr-ltan: #FAEFE6;
+    --clr-lblu: #71C1E8;
+    --clr-dgre: #5B6946;
+    --clr-blac: #191919;
+}
+
+body{
+    background-color: var(--clr-ltan);
+}
+
+h4{
+    color: var(--clr-dgre); 
+    font-family: DreamMorp; 
+    font-size: 18.4pt;
+}
+
+h3{
+    color: var(--clr-blac); 
+    font-family: DreamMorp; 
+    font-size: 25pt;
+}
+
+
+h1{
+    color: var(--clr-oran);
+    font-family: Nectarine;
+    margin-bottom: 50px;
+}
+
+h2{
+    color: var(--clr-dgre);
+    line-height: 0;
+    font-family: Nectarine;
+    margin-bottom: 50px;
+}
+a{
+    text-decoration: none;
+}
+a:visited {
+    text-decoration: none;
+}
+
+.mainTitle{
+    margin: 0;
+    text-align: center;
+    padding: 0;
+}
+
+#header{
+    color: var(--clr-dgre);
+    font-family: DreamMorp;
+    font-size: 15pt;
+    margin-bottom: 0;
+}
+
+.header{
+    text-align: right;
+    margin: 0;
+    padding: 0;
+}
+
+.navs{
+    float: left;
+    width: 18%;
+    padding: 10px;
+    border-left: white;
+    text-align: center;
+}
+
+.nav:after{
+    content: "";
+    display: table;
+    clear: both;
+}
+#present{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 45pt;
+}
+
+p{
+    font-family: 'Open Sans', sans-serif;
+}
+
+li{
+    font-family: 'Open Sans', sans-serif;
+}
+
+.bottom{
+    text-align: center;
+}
+
+.bottom_row{
+    float: left;
+    width: 33.33%;
+    text-align: center;
+}
+
+.bottom_rows{
+    margin: 50px;
+}
+
+.bottom_rows:after{
+    content: "";
+    display: table;
+    clear: both;
+}
+
+#bottom-title{
+    font-size: 60pt;
+    margin-bottom: 0;
+    margin-top: 0;
+}
+
+.gdcircs1{
+    float: left;
+    width: 30%;
+    padding: 10px;
+    text-align: center;
+}
+
+.gdcircs2{
+    float: left;
+    width: 45%;
+    padding: 10px;
+    text-align: center;
+}
+
+.graphicDesign1:after{
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.jcircs1 {
+    float: left;
+    padding: 10px;
+    width: 30%;
+    text-align: center;
+}
+
+.jcircs2{
+    float: left;
+    width: 45%;
+    padding: 10px;
+    text-align: center;
+}
+
+.journalist1:after{
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.ccircs1 {
+    float: left;
+    padding: 10px;
+    width: 30%;
+    text-align: center;
+}
+
+.ccircs2{
+    float: left;
+    width: 45%;
+    padding: 10px;
+    text-align: center;
+}
+
+.coding1:after{
+    content: "";
+    display: table;
+    clear: both;
+}
+
+#foodt{
+    font-size: 100pt; 
+    line-height: 100px;
+    color: var(--clr-oran);
+}
+
+#foodtitle{
+    text-align: center; 
+    font-size: 40pt;
+    font-family: DreamMorp;
+    color: var(--clr-brow);
+}
+.farticle1 {
+    float: left;
+    padding-left: 60px;
+    width: 45%;
+    text-align: left;
+}
+.farticle:after{
+    margin-left: 200px;
+    content: "";
+    display: table;
+    clear: both;
+}
+
+#secfoodt{
+    font-size: 100pt; 
+    line-height: 100px;
+    color: #FFCB65;
+}
+#foodtitle1{
+    text-align: center; 
+    font-size: 40pt;
+    font-family: DreamMorp;
+    color: var(--clr-lblu);
+}
+#ftitle{
+    font-family: Nectarine;
+    font-size: 40pt;
+    color: var(--clr-brow);
+}
+.farticle2 {
+    float: left;
+    padding-left: 60px;
+    width: 45%;
+    text-align: left;
+}
+
+.footer{
+    text-align: center;
+    padding: 20px;
+}
+#galleryt{
+    font-size: 100px;
+    color: var(--clr-oran);
+}
+.column {
+    float: left;
+    width: 31%;
+    padding: 10px;
+    padding-left: 20px;
+
+}
+  
+.column img {
+    margin-top: 12px;
+}
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+#travelt{
+    font-size: 100pt;
+    color: var(--clr-dgre)
+}
+
+#traveltitle{
+    font-size: 50pt;
+    font-family: DreamMorp;
+    color: var(--clr-lblu);
+}
+
+#travelA{
+    color: var(--clr-lblu);
+    text-align: left; 
+    font-size: 20pt;
+    font-family: DreamMorp;
+}
+
+#traveltitle2{
+    font-size: 50pt;
+    font-family: Nectarine;
+    color: var(--clr-oran);
+}
+
+#travelA2{
+    font-size: 30pt;
+    font-family: DreamMorp;
+    color: var(--clr-brow);
+}
+
+.tarticle2 {
+    float: left;
+    padding-left: 60px;
+    text-align: left;
+    width: 45%;
+}
+
+
+.tarticle:after{
+    margin-left: 200px;
+    content: "";
+    display: table;
+    clear: both;
+}
+
+#ttitle{
+    font-size: 35pt;
+    font-family: DreamMorp;
+    color: var(--clr-lblu);
+}
+
+#fashiont{
+    font-size: 100pt;
+    color: var(--clr-purp);
+    text-align: center;
+}
+
+#fashiontitle{
+    font-size: 40pt;
+    font-family: DreamMorp;
+    color: var(--clr-lblu);
+    text-align: center;
+}
+
+#back{
+    font-size: 50px;
+    font-family: Nectarine;
+    color: var(--clr-pink);
+    text-align: center;
+}
